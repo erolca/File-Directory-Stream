@@ -3,7 +3,7 @@ using System.IO;
 
 //Determines whether the specified file exists.
 
-/// <summary>
+/// <summary> 15.1.4. File.Exists
 /// The Exists method should not be used for path validation, this method merely checks if the file specified in path exists. Passing an invalid path to
 ///Exists returns false. To check whether the path contains any invalid characters, you can call the GetInvalidPathChars method to retrieve the characters
 ///that are invalid for the file system.You can also create a regular expression to test the whether the path is valid for your environment.For examples
