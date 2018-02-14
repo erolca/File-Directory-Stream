@@ -344,6 +344,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.21.13. Using statement a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.21.14. Using File.CreateText", "15.21.14. Using File.CreateText\15.21.14. Using File.CreateText.csproj", "{A756FF53-0821-491E-809C-C4C059796E75}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.22.TextReader TextWriter( 4 )", "15.22.TextReader TextWriter( 4 )", "{0EC3F065-18A3-4F2E-9D9E-463C7B3E7573}"
+	ProjectSection(SolutionItems) = preProject
+		15.22.2. TextWriter defines Write() and WriteLine() that output all of the built-in types..cs = 15.22.2. TextWriter defines Write() and WriteLine() that output all of the built-in types..cs
+		15.22.3. The TextReader and TextWriter classes are implemented by several character-based stream classes..cs = 15.22.3. The TextReader and TextWriter classes are implemented by several character-based stream classes..cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.22.1. The Input Methods", "15.22.1. The Input Methods\15.22.1. The Input Methods.csproj", "{C394C9F5-E2BA-4281-B793-F705AF2D12B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.22.4. Writing to a writer", "15.22.4. Writing to a writer\15.22.4. Writing to a writer.csproj", "{399B01DC-4B4E-4E45-8550-218380AB3D04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -894,6 +904,14 @@ Global
 		{A756FF53-0821-491E-809C-C4C059796E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A756FF53-0821-491E-809C-C4C059796E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A756FF53-0821-491E-809C-C4C059796E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C394C9F5-E2BA-4281-B793-F705AF2D12B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C394C9F5-E2BA-4281-B793-F705AF2D12B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C394C9F5-E2BA-4281-B793-F705AF2D12B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C394C9F5-E2BA-4281-B793-F705AF2D12B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399B01DC-4B4E-4E45-8550-218380AB3D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399B01DC-4B4E-4E45-8550-218380AB3D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399B01DC-4B4E-4E45-8550-218380AB3D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399B01DC-4B4E-4E45-8550-218380AB3D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1035,6 +1053,8 @@ Global
 		{AEF1F8DA-FCE2-45D3-B0D8-A0616F54E49A} = {3213FD96-E804-4161-95F3-02EAE1E0F78C}
 		{80404A8E-3FC2-415C-ABAC-8FE9251A642A} = {3213FD96-E804-4161-95F3-02EAE1E0F78C}
 		{A756FF53-0821-491E-809C-C4C059796E75} = {3213FD96-E804-4161-95F3-02EAE1E0F78C}
+		{C394C9F5-E2BA-4281-B793-F705AF2D12B3} = {0EC3F065-18A3-4F2E-9D9E-463C7B3E7573}
+		{399B01DC-4B4E-4E45-8550-218380AB3D04} = {0EC3F065-18A3-4F2E-9D9E-463C7B3E7573}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B096D2A-C442-445F-BF54-A2FF58C812C6}
