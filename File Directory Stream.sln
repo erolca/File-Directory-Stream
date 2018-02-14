@@ -378,6 +378,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.23.10. Reading Writing T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.23.11. Simple IO with the File Type", "15.23.11. Simple IO with the File Type\15.23.11. Simple IO with the File Type.csproj", "{345C04AA-EF9F-45BA-B6BC-D1C5F0BA691D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.24.BufferedStream( 3 )", "15.24.BufferedStream( 3 )", "{FC920780-16AA-4CD2-97E3-EE9172F90834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.24.1. Use BufferedStream", "15.24.1. Use BufferedStream\15.24.1. Use BufferedStream.csproj", "{4AAB8C2B-1C5C-4499-9F3F-3B56F50C62BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.24.2. Add a buffering layer to FileStream", "15.24.2. Add a buffering layer to FileStream\15.24.2. Add a buffering layer to FileStream.csproj", "{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.24.3. Buffered IO with BufferedStream", "15.24.3. Buffered IO with BufferedStream\15.24.3. Buffered IO with BufferedStream.csproj", "{40A10483-79CD-4D82-8F5C-2782E7C1216A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -980,6 +988,18 @@ Global
 		{345C04AA-EF9F-45BA-B6BC-D1C5F0BA691D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345C04AA-EF9F-45BA-B6BC-D1C5F0BA691D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345C04AA-EF9F-45BA-B6BC-D1C5F0BA691D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAB8C2B-1C5C-4499-9F3F-3B56F50C62BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAB8C2B-1C5C-4499-9F3F-3B56F50C62BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAB8C2B-1C5C-4499-9F3F-3B56F50C62BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAB8C2B-1C5C-4499-9F3F-3B56F50C62BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A10483-79CD-4D82-8F5C-2782E7C1216A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A10483-79CD-4D82-8F5C-2782E7C1216A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A10483-79CD-4D82-8F5C-2782E7C1216A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A10483-79CD-4D82-8F5C-2782E7C1216A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1134,6 +1154,9 @@ Global
 		{1D796E7F-AC6C-4104-A911-05B6881B6498} = {6D88D53C-7287-4B58-AED0-02BEF679916A}
 		{469B91A1-083B-4494-BEB2-E24DF6E37819} = {6D88D53C-7287-4B58-AED0-02BEF679916A}
 		{345C04AA-EF9F-45BA-B6BC-D1C5F0BA691D} = {6D88D53C-7287-4B58-AED0-02BEF679916A}
+		{4AAB8C2B-1C5C-4499-9F3F-3B56F50C62BD} = {FC920780-16AA-4CD2-97E3-EE9172F90834}
+		{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE} = {FC920780-16AA-4CD2-97E3-EE9172F90834}
+		{40A10483-79CD-4D82-8F5C-2782E7C1216A} = {FC920780-16AA-4CD2-97E3-EE9172F90834}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B096D2A-C442-445F-BF54-A2FF58C812C6}
