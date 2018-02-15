@@ -388,7 +388,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.24.3. Buffered IO with B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.25.MemoryStream( 5 )", "15.25.MemoryStream( 5 )", "{1B0F346A-0354-45E3-9851-79F5ACB96F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.1. Demonstrate MemoryStream", "15.25.1. Demonstrate MemoryStream.\15.25.1. Demonstrate MemoryStream.csproj", "{729F4E51-688C-4046-B233-5B3C9FD8D6A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.1. Demonstrate MemoryStream", "15.25.1. Demonstrate MemoryStream\15.25.1. Demonstrate MemoryStream.csproj", "{729F4E51-688C-4046-B233-5B3C9FD8D6A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.2. MemoryStream", "15.25.2. MemoryStream\15.25.2. MemoryStream.csproj", "{D535F98B-C971-43D8-B0E5-42A3DDD919D3}"
 EndProject
@@ -460,6 +460,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.35.2. Decrypting a file", "15.35.2. Decrypting a file\15.35.2. Decrypting a file.csproj", "{B1B0181A-6C27-4107-A20C-32FAD019539E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.33.Using Statement( 7 )", "15.33.Using Statement( 7 )", "{C67551D1-66DD-4B72-B0E7-5B52457CC53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.33.1. Use object inside using statement", "15.33.1. Use object inside using statement\15.33.1. Use object inside using statement.csproj", "{05F2040B-8761-473E-B059-50B49E496512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.33.2. Create obj inside the using statement", "15.33.2. Create obj inside the using statement\15.33.2. Create obj inside the using statement.csproj", "{CB20B1F9-B923-44B8-BF6C-3E63ACCE3BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.33.3. Using Statement using DIRECTIVE", "15.33.3. Using Statement using DIRECTIVE\15.33.3. Using Statement using DIRECTIVE.csproj", "{E892B1F0-0B86-4F05-9EB7-36003097B756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.33.4. FileStream inside a using statement", "15.33.4. FileStream inside a using statement\15.33.4. FileStream inside a using statement.csproj", "{D6790547-F595-4314-9CBF-E96BD50ED66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.33.5. Dispose a StreamWriter by using", "15.33.5. Dispose a StreamWriter by using\15.33.5. Dispose a StreamWriter by using.csproj", "{1296BD80-FD69-4FD8-8CB2-B13155FF0D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.33.6. Using statement to deal", "15.33.6. Using statement to deal\15.33.6. Using statement to deal.csproj", "{C9DAC062-4022-4856-8908-D2503B078649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.33.7. Nested using statement", "15.33.7. Nested using statement\15.33.7. Nested using statement.csproj", "{A0479E4F-4FCB-4A17-B167-5E3C5C4D3040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1187,6 +1201,34 @@ Global
 		{B1B0181A-6C27-4107-A20C-32FAD019539E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B0181A-6C27-4107-A20C-32FAD019539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B0181A-6C27-4107-A20C-32FAD019539E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F2040B-8761-473E-B059-50B49E496512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F2040B-8761-473E-B059-50B49E496512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F2040B-8761-473E-B059-50B49E496512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F2040B-8761-473E-B059-50B49E496512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB20B1F9-B923-44B8-BF6C-3E63ACCE3BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB20B1F9-B923-44B8-BF6C-3E63ACCE3BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB20B1F9-B923-44B8-BF6C-3E63ACCE3BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB20B1F9-B923-44B8-BF6C-3E63ACCE3BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E892B1F0-0B86-4F05-9EB7-36003097B756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E892B1F0-0B86-4F05-9EB7-36003097B756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E892B1F0-0B86-4F05-9EB7-36003097B756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E892B1F0-0B86-4F05-9EB7-36003097B756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6790547-F595-4314-9CBF-E96BD50ED66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6790547-F595-4314-9CBF-E96BD50ED66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6790547-F595-4314-9CBF-E96BD50ED66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6790547-F595-4314-9CBF-E96BD50ED66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1296BD80-FD69-4FD8-8CB2-B13155FF0D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1296BD80-FD69-4FD8-8CB2-B13155FF0D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1296BD80-FD69-4FD8-8CB2-B13155FF0D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1296BD80-FD69-4FD8-8CB2-B13155FF0D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DAC062-4022-4856-8908-D2503B078649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DAC062-4022-4856-8908-D2503B078649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DAC062-4022-4856-8908-D2503B078649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DAC062-4022-4856-8908-D2503B078649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0479E4F-4FCB-4A17-B167-5E3C5C4D3040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0479E4F-4FCB-4A17-B167-5E3C5C4D3040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0479E4F-4FCB-4A17-B167-5E3C5C4D3040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0479E4F-4FCB-4A17-B167-5E3C5C4D3040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1372,6 +1414,13 @@ Global
 		{469D403E-0972-4B78-BF3D-D8F53E3907A0} = {ECA381F3-0764-4CBD-A239-A72037F316A5}
 		{49CD3592-E953-4FAF-ACB9-E96F18B1F705} = {76D7D022-B0A2-4DE0-B351-54A0710A23F1}
 		{B1B0181A-6C27-4107-A20C-32FAD019539E} = {76D7D022-B0A2-4DE0-B351-54A0710A23F1}
+		{05F2040B-8761-473E-B059-50B49E496512} = {C67551D1-66DD-4B72-B0E7-5B52457CC53E}
+		{CB20B1F9-B923-44B8-BF6C-3E63ACCE3BBA} = {C67551D1-66DD-4B72-B0E7-5B52457CC53E}
+		{E892B1F0-0B86-4F05-9EB7-36003097B756} = {C67551D1-66DD-4B72-B0E7-5B52457CC53E}
+		{D6790547-F595-4314-9CBF-E96BD50ED66F} = {C67551D1-66DD-4B72-B0E7-5B52457CC53E}
+		{1296BD80-FD69-4FD8-8CB2-B13155FF0D52} = {C67551D1-66DD-4B72-B0E7-5B52457CC53E}
+		{C9DAC062-4022-4856-8908-D2503B078649} = {C67551D1-66DD-4B72-B0E7-5B52457CC53E}
+		{A0479E4F-4FCB-4A17-B167-5E3C5C4D3040} = {C67551D1-66DD-4B72-B0E7-5B52457CC53E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B096D2A-C442-445F-BF54-A2FF58C812C6}
