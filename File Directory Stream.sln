@@ -449,6 +449,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.30.5. Binary Custom Seri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.30.6.System.Runtime.Serialization.ISerializa", "15.30.6.System.Runtime.Serialization.ISerializa\15.30.6.System.Runtime.Serialization.ISerializa.csproj", "{73406292-A6A9-4E48-93FD-F0E9580CB441}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.34.FileSecurity( 1 )", "15.34.FileSecurity( 1 )", "{ECA381F3-0764-4CBD-A239-A72037F316A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.34.1. Accessing file Access Rules", "15.34.1. Accessing file Access Rules\15.34.1. Accessing file Access Rules.csproj", "{469D403E-0972-4B78-BF3D-D8F53E3907A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.35.Encrypt Decrypt File( 2 )", "15.35.Encrypt Decrypt File( 2 )", "{76D7D022-B0A2-4DE0-B351-54A0710A23F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.35.1. Encrypting a file", "15.35.1. Encrypting a file\15.35.1. Encrypting a file.csproj", "{49CD3592-E953-4FAF-ACB9-E96F18B1F705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.35.2. Decrypting a file", "15.35.2. Decrypting a file\15.35.2. Decrypting a file.csproj", "{B1B0181A-6C27-4107-A20C-32FAD019539E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.33.Using Statement( 7 )", "15.33.Using Statement( 7 )", "{C67551D1-66DD-4B72-B0E7-5B52457CC53E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1163,6 +1175,18 @@ Global
 		{73406292-A6A9-4E48-93FD-F0E9580CB441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73406292-A6A9-4E48-93FD-F0E9580CB441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73406292-A6A9-4E48-93FD-F0E9580CB441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469D403E-0972-4B78-BF3D-D8F53E3907A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469D403E-0972-4B78-BF3D-D8F53E3907A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469D403E-0972-4B78-BF3D-D8F53E3907A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469D403E-0972-4B78-BF3D-D8F53E3907A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CD3592-E953-4FAF-ACB9-E96F18B1F705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CD3592-E953-4FAF-ACB9-E96F18B1F705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CD3592-E953-4FAF-ACB9-E96F18B1F705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CD3592-E953-4FAF-ACB9-E96F18B1F705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B0181A-6C27-4107-A20C-32FAD019539E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B0181A-6C27-4107-A20C-32FAD019539E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B0181A-6C27-4107-A20C-32FAD019539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B0181A-6C27-4107-A20C-32FAD019539E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1345,6 +1369,9 @@ Global
 		{3229E1DD-7964-486E-AA7C-9B31B1FE2C39} = {71B57380-7DAA-48C3-859C-8F85F6666E10}
 		{1803D78D-472B-48EB-91F7-D4289B345450} = {71B57380-7DAA-48C3-859C-8F85F6666E10}
 		{73406292-A6A9-4E48-93FD-F0E9580CB441} = {71B57380-7DAA-48C3-859C-8F85F6666E10}
+		{469D403E-0972-4B78-BF3D-D8F53E3907A0} = {ECA381F3-0764-4CBD-A239-A72037F316A5}
+		{49CD3592-E953-4FAF-ACB9-E96F18B1F705} = {76D7D022-B0A2-4DE0-B351-54A0710A23F1}
+		{B1B0181A-6C27-4107-A20C-32FAD019539E} = {76D7D022-B0A2-4DE0-B351-54A0710A23F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B096D2A-C442-445F-BF54-A2FF58C812C6}
