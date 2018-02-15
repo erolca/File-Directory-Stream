@@ -358,7 +358,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.23.Text File Read Write(
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.23.1. Use while loop to read a text file", "15.23.1. Use while loop to read a text file\15.23.1. Use while loop to read a text file.csproj", "{5CEFC17E-B5B5-4CB2-956B-1F0337AF0298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.23.2. Display a text file", "15.23.2. Display a text file.\15.23.2. Display a text file.csproj", "{0E4D4CC3-BDF2-494C-951E-67C7ED66B42B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.23.2. Display a text file", "15.23.2. Display a text file\15.23.2. Display a text file.csproj", "{0E4D4CC3-BDF2-494C-951E-67C7ED66B42B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.23.3. Write to a file", "15.23.3. Write to a file\15.23.3. Write to a file.csproj", "{ECFAC8E6-DFD9-4DDD-9966-AFB00356B668}"
 EndProject
@@ -385,6 +385,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.24.2. Add a buffering layer to FileStream", "15.24.2. Add a buffering layer to FileStream\15.24.2. Add a buffering layer to FileStream.csproj", "{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.24.3. Buffered IO with BufferedStream", "15.24.3. Buffered IO with BufferedStream\15.24.3. Buffered IO with BufferedStream.csproj", "{40A10483-79CD-4D82-8F5C-2782E7C1216A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.25.MemoryStream( 5 )", "15.25.MemoryStream( 5 )", "{1B0F346A-0354-45E3-9851-79F5ACB96F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.1. Demonstrate MemoryStream", "15.25.1. Demonstrate MemoryStream.\15.25.1. Demonstrate MemoryStream.csproj", "{729F4E51-688C-4046-B233-5B3C9FD8D6A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.2. MemoryStream", "15.25.2. MemoryStream\15.25.2. MemoryStream.csproj", "{D535F98B-C971-43D8-B0E5-42A3DDD919D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.3. Save the MemoryStream as a file", "15.25.3. Save the MemoryStream as a file\15.25.3. Save the MemoryStream as a file.csproj", "{3ED330B1-00A4-474E-9EF7-134BF653773E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.4. Read data", "15.25.4. Read data\15.25.4. Read data.csproj", "{1DE790AE-E6AF-45A6-99E9-E343EB251EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.5. Use MemoryStream to reverse a file", "15.25.5. Use MemoryStream to reverse a file\15.25.5. Use MemoryStream to reverse a file.csproj", "{AB670748-4397-4B29-855D-D0D4663623F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1000,6 +1012,26 @@ Global
 		{40A10483-79CD-4D82-8F5C-2782E7C1216A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A10483-79CD-4D82-8F5C-2782E7C1216A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A10483-79CD-4D82-8F5C-2782E7C1216A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729F4E51-688C-4046-B233-5B3C9FD8D6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729F4E51-688C-4046-B233-5B3C9FD8D6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729F4E51-688C-4046-B233-5B3C9FD8D6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729F4E51-688C-4046-B233-5B3C9FD8D6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D535F98B-C971-43D8-B0E5-42A3DDD919D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D535F98B-C971-43D8-B0E5-42A3DDD919D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D535F98B-C971-43D8-B0E5-42A3DDD919D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D535F98B-C971-43D8-B0E5-42A3DDD919D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED330B1-00A4-474E-9EF7-134BF653773E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED330B1-00A4-474E-9EF7-134BF653773E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED330B1-00A4-474E-9EF7-134BF653773E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED330B1-00A4-474E-9EF7-134BF653773E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE790AE-E6AF-45A6-99E9-E343EB251EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE790AE-E6AF-45A6-99E9-E343EB251EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE790AE-E6AF-45A6-99E9-E343EB251EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE790AE-E6AF-45A6-99E9-E343EB251EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB670748-4397-4B29-855D-D0D4663623F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB670748-4397-4B29-855D-D0D4663623F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB670748-4397-4B29-855D-D0D4663623F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB670748-4397-4B29-855D-D0D4663623F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1157,6 +1189,11 @@ Global
 		{4AAB8C2B-1C5C-4499-9F3F-3B56F50C62BD} = {FC920780-16AA-4CD2-97E3-EE9172F90834}
 		{B8825056-086A-4CBA-8BB0-1B9E3C6A56CE} = {FC920780-16AA-4CD2-97E3-EE9172F90834}
 		{40A10483-79CD-4D82-8F5C-2782E7C1216A} = {FC920780-16AA-4CD2-97E3-EE9172F90834}
+		{729F4E51-688C-4046-B233-5B3C9FD8D6A6} = {1B0F346A-0354-45E3-9851-79F5ACB96F8F}
+		{D535F98B-C971-43D8-B0E5-42A3DDD919D3} = {1B0F346A-0354-45E3-9851-79F5ACB96F8F}
+		{3ED330B1-00A4-474E-9EF7-134BF653773E} = {1B0F346A-0354-45E3-9851-79F5ACB96F8F}
+		{1DE790AE-E6AF-45A6-99E9-E343EB251EC9} = {1B0F346A-0354-45E3-9851-79F5ACB96F8F}
+		{AB670748-4397-4B29-855D-D0D4663623F0} = {1B0F346A-0354-45E3-9851-79F5ACB96F8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B096D2A-C442-445F-BF54-A2FF58C812C6}
