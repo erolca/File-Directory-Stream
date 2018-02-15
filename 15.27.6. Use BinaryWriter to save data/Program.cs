@@ -36,6 +36,6 @@ class MainClass
         br.Close();
     }
 }
-3
-4.5
-Test String
+//3
+//4.5
+//Test String

@@ -36,6 +36,6 @@ static class MainClass
 
     }
 }
-124.23
-Test string
-A
+//124.23
+//Test string
+//A
